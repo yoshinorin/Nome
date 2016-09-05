@@ -5,7 +5,7 @@ Active Directory searcher. Powerd by C# & WPF.
 
 |Porpose|Service|Status|Remark|
 |---|---|---|---|
-|Build & Test|AppVeyor|[![Build status](https://ci.appveyor.com/api/projects/status/rfyrw3txjr0mld5a/branch/master?svg=true)](https://ci.appveyor.com/project/YoshinoriN/nome/branch/master)(https://ci.appveyor.com/project/YoshinoriN/kinugasa)|* Build all projects. <br> * Check test code. <br> * Crete coverage report and send it to CodeCov.|
+|Build & Test|AppVeyor|[![Build status](https://ci.appveyor.com/api/projects/status/rfyrw3txjr0mld5a/branch/master?svg=true)](https://ci.appveyor.com/project/YoshinoriN/nome/branch/master)|* Build all projects. <br> * Check test code. <br> * Crete coverage report and send it to CodeCov.|
 |Coverage|CodeCov|[![codecov](https://codecov.io/gh/YoshinoriN/Nome/branch/master/graph/badge.svg)](https://codecov.io/gh/YoshinoriN/Nome)|Receive test coverage report from AppVeyor.|
 
 # Use Libraly
@@ -13,6 +13,7 @@ Active Directory searcher. Powerd by C# & WPF.
 [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
 
 > The MIT License (MIT)
+
 > Copyright (c) 2007 James Newton-King
 
 * [Full license text](/Licenses/Newtonsoft.Json.txt) 
