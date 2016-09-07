@@ -14,29 +14,24 @@ namespace Nome.LDAP.Data
     public class LdapCore
     {
         /// <summary>
-        /// surName
-        /// </summary>
-        public string SurName { get; set; }
-
-        /// <summary>
         /// c
         /// </summary>
         public string CountryName { get; set; }
 
         /// <summary>
+        /// facsimileTelephoneNumber
+        /// </summary>
+        public string Fax { get; set; }
+
+        /// <summary>
+        /// gn
+        /// </summary>
+        public string GivenName { get; set; }
+
+        /// <summary>
         /// l
         /// </summary>
         public string LocalityName { get; set; }
-
-        /// <summary>
-        /// st
-        /// </summary>
-        public string StateOrProvinveName { get; set; }
-
-        /// <summary>
-        /// st
-        /// </summary>
-        public string StreetAddress { get; set; }
 
         /// <summary>
         /// o
@@ -49,14 +44,24 @@ namespace Nome.LDAP.Data
         public string OrganizationalUnitName { get; set; }
 
         /// <summary>
-        /// title
-        /// </summary>
-        public string Title { get; set; }
-
-        /// <summary>
         /// postalCode
         /// </summary>
         public string PostalCode { get; set; }
+
+        /// <summary>
+        /// st
+        /// </summary>
+        public string StateOrProvinveName { get; set; }
+
+        /// <summary>
+        /// st
+        /// </summary>
+        public string StreetAddress { get; set; }
+
+        /// <summary>
+        /// surName
+        /// </summary>
+        public string SurName { get; set; }
 
         /// <summary>
         /// telephoneNumber
@@ -64,14 +69,9 @@ namespace Nome.LDAP.Data
         public string TelephoneNumber { get; set; }
 
         /// <summary>
-        /// facsimileTelephoneNumber
+        /// title
         /// </summary>
-        public string Fax { get; set; }
-
-        /// <summary>
-        /// gn
-        /// </summary>
-        public string GivenName { get; set; }
+        public string Title { get; set; }
     }
 
     #region "Not implement attributes"
