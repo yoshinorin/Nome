@@ -6,7 +6,7 @@ namespace Nome.LDAP.Data
     /// <summary>
     /// Store Active Directory's data.
     /// </summary>
-    public class ActiveDirectory : LDAP
+    public class ActiveDirectory : LdapCore
     {
     }
 }
