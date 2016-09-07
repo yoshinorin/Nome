@@ -7,7 +7,7 @@ namespace Nome.LDAP.Test
     public class ConnectionTest
     {
         [TestMethod]
-        public void ConnectionADTest()
+        public void ActiveDirectoryTest()
         {
             var ad = new ActiveDirectory(null);
         }

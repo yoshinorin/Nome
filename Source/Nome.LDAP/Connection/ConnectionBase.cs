@@ -47,6 +47,8 @@ namespace Nome.LDAP.Connection
             }
             catch(Exception ex)
             {
+                //TODO : Create has three items dictionay.
+                result.Clear();
                 result.Add(false, ex.Message);
                 return result;
             }
