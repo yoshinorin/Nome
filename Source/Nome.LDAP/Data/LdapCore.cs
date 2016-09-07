@@ -19,6 +19,21 @@ namespace Nome.LDAP.Data
         public string CountryName { get; set; }
 
         /// <summary>
+        /// displayName
+        /// </summary>
+        public string DisplayName { get; set; }
+
+        /// <summary>
+        /// employeeNumber
+        /// </summary>
+        public string EmployeeNumber { get; set; }
+
+        /// <summary>
+        /// employeeType
+        /// </summary>
+        public string EmployeeType { get; set; }
+
+        /// <summary>
         /// facsimileTelephoneNumber
         /// </summary>
         public string Fax { get; set; }
@@ -29,9 +44,24 @@ namespace Nome.LDAP.Data
         public string GivenName { get; set; }
 
         /// <summary>
+        /// initials
+        /// </summary>
+        public string Initials { get; set; }
+
+        /// <summary>
         /// l
         /// </summary>
         public string LocalityName { get; set; }
+
+        /// <summary>
+        /// mail
+        /// </summary>
+        public string Mail { get; set; }
+
+        /// <summary>
+        /// mobile
+        /// </summary>
+        public string Moblie { get; set; }
 
         /// <summary>
         /// o
@@ -44,6 +74,11 @@ namespace Nome.LDAP.Data
         public string OrganizationalUnitName { get; set; }
 
         /// <summary>
+        /// postalAddress
+        /// </summary>
+        public string PostalAddress { get; set; }
+
+        /// <summary>
         /// postalCode
         /// </summary>
         public string PostalCode { get; set; }
@@ -54,12 +89,12 @@ namespace Nome.LDAP.Data
         public string StateOrProvinveName { get; set; }
 
         /// <summary>
-        /// st
+        /// sa
         /// </summary>
         public string StreetAddress { get; set; }
 
         /// <summary>
-        /// surName
+        /// sn
         /// </summary>
         public string SurName { get; set; }
 
@@ -81,7 +116,6 @@ namespace Nome.LDAP.Data
     serialNumber
     searchGuide
     businessCategory
-    postalAddress
     postOfficeBox
     physicalDeliveryOfficeName
     telexNumber
@@ -102,7 +136,6 @@ namespace Nome.LDAP.Data
     authorityRevocationList
     certificateRevocationList
     crossCertificatePair
-    initials
     generationQualifier
     x500UniqueIdentifier
     dnQualifier
@@ -115,7 +148,6 @@ namespace Nome.LDAP.Data
     deltaRevocationList
     dmdName
     pseudonym
-
     */
 
     #endregion
