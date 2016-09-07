@@ -8,5 +8,6 @@ namespace Nome.LDAP.Data
     /// </summary>
     public class Exchange : ActiveDirectory
     {
+        //TODO : Add properies.
     }
 }

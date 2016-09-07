@@ -8,5 +8,6 @@ namespace Nome.LDAP.Data
     /// </summary>
     public class ActiveDirectory : LdapCore
     {
+        //TODO : Add properies.
     }
 }
