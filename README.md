@@ -1,5 +1,5 @@
 # Nome
-Active Directory searcher. Powerd by C# & WPF.
+LDAP searcher. Powerd by C# & WPF.
 
 # CI Statuses
 
