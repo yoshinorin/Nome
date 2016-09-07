@@ -38,13 +38,17 @@
     <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connection\ActiveDirectory.cs" />
+    <Compile Include="Connection\Interfaces\IConnection.cs" />
     <Compile Include="Data\ActiveDirectory.cs" />
     <Compile Include="Data\Exchange.cs" />
     <Compile Include="Data\LdapCore.cs" />
+    <Compile Include="Connection\AbstractConnection.cs" />
     <Compile Include="ObjectClassService.cs" />
     <Compile Include="ObjectClassTypeEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
