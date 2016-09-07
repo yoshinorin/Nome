@@ -6,6 +6,7 @@ Active Directory searcher. Powerd by C# & WPF.
 |Porpose|Service|Status|Remark|
 |---|---|---|---|
 |Build & Test|AppVeyor|[![Build status](https://ci.appveyor.com/api/projects/status/rfyrw3txjr0mld5a/branch/master?svg=true)](https://ci.appveyor.com/project/YoshinoriN/nome/branch/master)|* Build all projects. <br> * Check test code. <br> * Crete coverage report and send it to CodeCov.|
+|Static Code Analysis|CodeClimate|[![Issue Count](https://codeclimate.com/github/YoshinoriN/Nome/badges/issue_count.svg)](https://codeclimate.com/github/YoshinoriN/Nome)|Only check Markdown syntax and code's comments.|
 |Coverage|CodeCov|[![codecov](https://codecov.io/gh/YoshinoriN/Nome/branch/master/graph/badge.svg)](https://codecov.io/gh/YoshinoriN/Nome)|Receive test coverage report from AppVeyor.|
 
 # Use Libraly
