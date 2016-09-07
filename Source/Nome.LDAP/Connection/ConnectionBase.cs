@@ -12,7 +12,7 @@ namespace Nome.LDAP.Connection
     /// </summary>
     public class ConnectionBase
     {
-        public System.DirectoryServices.DirectoryEntry DirectoryEntry { get; } = new System.DirectoryServices.DirectoryEntry();
+        public System.DirectoryServices.DirectoryEntry DirectoryEntry { get; protected set; } = new System.DirectoryServices.DirectoryEntry();
 
         /// <summary>
         /// Result of confirm connection.

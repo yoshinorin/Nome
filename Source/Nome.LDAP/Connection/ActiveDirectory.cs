@@ -21,19 +21,28 @@ namespace Nome.LDAP.Connection
 
         public ActiveDirectory(string host) : base(host)
         {
-            _instance = new ActiveDirectory(host);
             this.DirectoryEntry.AuthenticationType = System.DirectoryServices.AuthenticationTypes.Secure;
-
             try
             {
-                var x = this.EstablishConnection();
-            }
-            catch
-            {
+                var result = this.EstablishConnection();
+                if (!result.First().Key)
+                {
+                    this.DirectoryEntry.Dispose();
 
+                    //Retry to connect a LDAP server.
+                    //TODO : Entry need information using by some way.
+                    this.DirectoryEntry = new System.DirectoryServices.DirectoryEntry(this.Host, "username", "password");
+                    var secondalyResult = this.EstablishConnection();
+                    if (!secondalyResult.First().Key)
+                    {
+                        this.DirectoryEntry.Dispose();
+                    }
+                }
+            }
+            finally
+            {
+                _instance = this;
             }
         }
-
-
     }
 }
