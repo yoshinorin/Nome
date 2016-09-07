@@ -43,7 +43,7 @@
     <Compile Include="Data\ActiveDirectory.cs" />
     <Compile Include="Data\Exchange.cs" />
     <Compile Include="Data\LdapCore.cs" />
-    <Compile Include="Connection\AbstractConnection.cs" />
+    <Compile Include="Connection\ConnectionBase.cs" />
     <Compile Include="ObjectClassService.cs" />
     <Compile Include="ObjectClassTypeEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
