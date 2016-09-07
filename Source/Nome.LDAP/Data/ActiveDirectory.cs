@@ -1,5 +1,5 @@
 ﻿/// <summary>
-/// Data store class for LDAP.
+/// Provide function of LDAP.
 /// </summary>
 namespace Nome.LDAP.Data
 {

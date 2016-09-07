@@ -1,5 +1,5 @@
 ﻿/// <summary>
-/// Data store class for Exchange Server.
+/// Provide function of LDAP.
 /// </summary>
 namespace Nome.LDAP.Data
 {
