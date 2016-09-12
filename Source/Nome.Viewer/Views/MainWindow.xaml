@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:Nome.Viewer"
         xmlns:metro="http://schemes.grabacr.net/winfx/2014/controls"
         xmlns:views="clr-namespace:Nome.Viewer.Views"
+        xmlns:settings="clr-namespace:Nome.Viewer.Views.Settings"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="600">
 
@@ -54,6 +55,7 @@
                             <TextBlock Text="Settings"
 									   Style="{StaticResource TabHeaderStyleKey}" />
                         </TabItem.Header>
+                        <settings:SettingsMain />
                     </TabItem>
                     <TabItem>
                         <TabItem.Header>
