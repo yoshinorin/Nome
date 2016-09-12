@@ -9,7 +9,16 @@ LDAP searcher. Powerd by C# & WPF.
 |Static Code Analysis|CodeClimate|[![Issue Count](https://codeclimate.com/github/YoshinoriN/Nome/badges/issue_count.svg)](https://codeclimate.com/github/YoshinoriN/Nome)|Only check Markdown syntax and code's comments.|
 |Coverage|CodeCov|[![codecov](https://codecov.io/gh/YoshinoriN/Nome/branch/master/graph/badge.svg)](https://codecov.io/gh/YoshinoriN/Nome)|Receive test coverage report from AppVeyor.|
 
-# Use Libraly
+# Use Libralies
+
+[MetroRadiance](https://github.com/Grabacr07/MetroRadiance)
+
+> The MIT License (MIT)
+
+> Copyright (c) 2014 Manato KAMEYA
+
+* [Full license text](/Licenses/MetroRadiance.txt) 
+
 
 [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
 
@@ -19,7 +28,12 @@ LDAP searcher. Powerd by C# & WPF.
 
 * [Full license text](/Licenses/Newtonsoft.Json.txt) 
 
+# Requirements
+
+* .NET Framework 4.6.1
+
 # Development
+
 * C# 6
 * Visual Studio Community 2015
 * MSTest (On Visual Studio Community 2015)
