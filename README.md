@@ -20,6 +20,15 @@ LDAP searcher. Powerd by C# & WPF.
 * [Full license text](/Licenses/MetroRadiance.txt) 
 
 
+[MetroTrilithon](https://github.com/Grabacr07/MetroTrilithon)
+
+> The MIT License (MIT)
+
+> Copyright (c) 2015 Manato KAMEYA
+
+* [Full license text](/Licenses/MetroTrilithon.txt) 
+
+
 [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
 
 > The MIT License (MIT)
