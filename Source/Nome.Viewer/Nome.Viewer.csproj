@@ -118,12 +118,6 @@
     <Folder Include="Models\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Nome.Configuration\Nome.Configuration.csproj">
-      <Project>{70239f5c-8333-4fe3-a75d-c5306b290aa7}</Project>
-      <Name>Nome.Configuration</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
