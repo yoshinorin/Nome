@@ -5,22 +5,65 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Nome.Viewer"
         xmlns:metro="http://schemes.grabacr.net/winfx/2014/controls"
+        xmlns:views="clr-namespace:Nome.Viewer.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="300">
+        Title="MainWindow" Height="350" Width="600">
 
     <Grid Margin="10,10,10,10">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <StackPanel>
-            <Button Content="Search"
-                    />
-            <Button Content="Settings"
-                    />
-        </StackPanel>
-        <Frame x:Name="rootFrame"
-               Grid.Column="1" Grid.Row="0" 
-               x:FieldModifier="public"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0"
+                   Margin="10,10,0,0"
+                   Text="TODO:タイトル後でバインディングする"
+                   >
+        </TextBlock>
+
+        <Border Grid.Column="1"
+                Grid.Row="1"
+				Margin="0,10,0,0">
+            <ScrollViewer VerticalScrollBarVisibility="Auto"
+						  PanningMode="Both">
+                <TabControl Style="{StaticResource VerticalTabControlStyleKey}">
+                    <TabControl.Resources>
+                        <Style x:Key="TabHeaderStyleKey"
+							   TargetType="{x:Type TextBlock}"
+							   BasedOn="{StaticResource {x:Type TextBlock}}">
+                            <Setter Property="Foreground"
+									Value="{Binding RelativeSource={RelativeSource AncestorType={x:Type TabItem}}, Path=Foreground}" />
+                            <Setter Property="Margin"
+									Value="10,10" />
+                            <Setter Property="FontSize"
+									Value="15" />
+                        </Style>
+                    </TabControl.Resources>
+                    <TabItem>
+                        <TabItem.Header>
+                            <TextBlock Text="Search"
+									   Style="{DynamicResource TabHeaderStyleKey}" />
+                        </TabItem.Header>
+                    </TabItem>
+                    <TabItem>
+                        <TabItem.Header>
+                            <TextBlock Text="Settings"
+									   Style="{StaticResource TabHeaderStyleKey}" />
+                        </TabItem.Header>
+                    </TabItem>
+                    <TabItem>
+                        <TabItem.Header>
+                            <TextBlock Text="About"
+									   Style="{StaticResource TabHeaderStyleKey}" />
+                        </TabItem.Header>
+                        <views:About />
+                    </TabItem>
+                </TabControl>
+            </ScrollViewer>
+        </Border>
     </Grid>
 </metro:MetroWindow>
