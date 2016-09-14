@@ -103,8 +103,14 @@
     <Compile Include="Views\Settings\Connection.xaml.cs">
       <DependentUpon>Connection.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Settings\Language.xaml.cs">
+      <DependentUpon>Language.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Settings\SettingsMain.xaml.cs">
       <DependentUpon>SettingsMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\UserInterface.xaml.cs">
+      <DependentUpon>UserInterface.xaml</DependentUpon>
     </Compile>
     <Page Include="Views\About.xaml">
       <SubType>Designer</SubType>
@@ -130,7 +136,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\Settings\Language.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Settings\SettingsMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Settings\UserInterface.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

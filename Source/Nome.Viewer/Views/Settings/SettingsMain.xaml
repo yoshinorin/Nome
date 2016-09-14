@@ -25,6 +25,13 @@
                 </TabControl.Resources>
                 <TabItem>
                     <TabItem.Header>
+                        <TextBlock Text="Language"
+									   Style="{StaticResource TabHeaderStyleKey}" />
+                    </TabItem.Header>
+                    <local:Language />
+                </TabItem>
+                <TabItem>
+                    <TabItem.Header>
                         <TextBlock Text="Connection"
 									   Style="{DynamicResource TabHeaderStyleKey}" />
                     </TabItem.Header>
@@ -35,6 +42,7 @@
                         <TextBlock Text="UI"
 									   Style="{StaticResource TabHeaderStyleKey}" />
                     </TabItem.Header>
+                    <local:UserInterface />
                 </TabItem>
                 <TabItem>
                     <TabItem.Header>
