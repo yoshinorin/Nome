@@ -28,6 +28,7 @@
                         <TextBlock Text="Connection"
 									   Style="{DynamicResource TabHeaderStyleKey}" />
                     </TabItem.Header>
+                    <local:Connection />
                 </TabItem>
                 <TabItem>
                     <TabItem.Header>
