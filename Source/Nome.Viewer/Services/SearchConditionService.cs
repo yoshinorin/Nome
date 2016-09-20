@@ -1,4 +1,4 @@
-﻿namespace Nome.Viewer.Service
+﻿namespace Nome.Viewer.Services
 {
     public static class SearchConditionService
     {

@@ -1,4 +1,4 @@
-﻿namespace Nome.Viewer.Service
+﻿namespace Nome.Viewer.Services
 {
     /// <summary>
     /// Type of SearchCondition Enum.
