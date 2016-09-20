@@ -51,7 +51,7 @@ LDAP searcher. Powerd by C# & WPF.
 
 |Name|Type|Porpose|
 |---|---|---|
-|[OpenCober v4.6.519](https://github.com/OpenCover/opencover)|Nuget|Measure of test code coverage.|
+|[OpenCover v4.6.519](https://github.com/OpenCover/opencover)|Nuget|Measure of test code coverage.|
 
 
 # LICENSE
