@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nome.LDAP.Test", "Test\Nome
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nome.Configuration", "Source\Nome.Configuration\Nome.Configuration.csproj", "{0DA64028-B444-41FC-8CEF-0B0DFA61377C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nome.Viewer.Test", "Test\Nome.Viewer.Test\Nome.Viewer.Test.csproj", "{358B7971-8F73-4AC2-8FB3-87BC924F9D17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{0DA64028-B444-41FC-8CEF-0B0DFA61377C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DA64028-B444-41FC-8CEF-0B0DFA61377C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DA64028-B444-41FC-8CEF-0B0DFA61377C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358B7971-8F73-4AC2-8FB3-87BC924F9D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358B7971-8F73-4AC2-8FB3-87BC924F9D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358B7971-8F73-4AC2-8FB3-87BC924F9D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358B7971-8F73-4AC2-8FB3-87BC924F9D17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +59,6 @@ Global
 		{C1387CBC-EA0E-4A87-89EA-DE20CD4ED819} = {24979A65-C6C5-4F78-BCE5-CD3B8B21C3FB}
 		{86616F3F-95E6-4C96-8635-87B4EB3FA5E2} = {78A7175D-A6B8-41F5-B2C7-FE88665AE639}
 		{0DA64028-B444-41FC-8CEF-0B0DFA61377C} = {24979A65-C6C5-4F78-BCE5-CD3B8B21C3FB}
+		{358B7971-8F73-4AC2-8FB3-87BC924F9D17} = {78A7175D-A6B8-41F5-B2C7-FE88665AE639}
 	EndGlobalSection
 EndGlobal
