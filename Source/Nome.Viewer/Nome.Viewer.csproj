@@ -100,6 +100,12 @@
     <Compile Include="Views\About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Search\SearchCondition.xaml.cs">
+      <DependentUpon>SearchCondition.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Search\SearchMainWindow.xaml.cs">
+      <DependentUpon>SearchMainWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Settings\Connection.xaml.cs">
       <DependentUpon>Connection.xaml</DependentUpon>
     </Compile>
@@ -113,6 +119,14 @@
       <DependentUpon>UserInterface.xaml</DependentUpon>
     </Compile>
     <Page Include="Views\About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Search\SearchCondition.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Search\SearchMainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
