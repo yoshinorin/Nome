@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using Nome.Configuration;
 
 namespace Nome.Viewer
 {
@@ -13,5 +14,14 @@ namespace Nome.Viewer
     /// </summary>
     public partial class App : Application
     {
+        public Nome.Configuration.ConfigurationManager ConfigurationMng = new Nome.Configuration.ConfigurationManager();
+
+        public static Nome.Configuration.Language Language;
+
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            var langMng = new Nome.Configuration.LanguageManager(this.ConfigurationMng.Configuration.Language);
+            Language = langMng.Language;
+        }
     }
 }
