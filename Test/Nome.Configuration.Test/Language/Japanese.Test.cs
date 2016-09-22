@@ -9,14 +9,14 @@ namespace Nome.Configuration.Test.Language
         [TestMethod]
         public void ParamatersTest()
         {
-            var conf = new Nome.Configuration.Manager();
-            conf.ReadLanguage("ja");
+            var conf = new Nome.Configuration.ConfigurationManager();
+            var lang = new Nome.Configuration.LanguageManager(conf.Configuration.Language);
 
-            Assert.AreNotEqual(0, conf.Language.View.Search.Condition.Length);
-            Assert.AreNotEqual(0, conf.Language.View.Search.Target.Length);
-            Assert.AreNotEqual(0, conf.Language.View.Search.Word.Length);
-            Assert.AreNotEqual(0, conf.Language.View.Settings.Connection.Length);
-            Assert.AreNotEqual(0, conf.Language.View.Settings.UI.Length);
+            Assert.AreNotEqual(0, lang.Language.View.Search.Condition.Length);
+            Assert.AreNotEqual(0, lang.Language.View.Search.Target.Length);
+            Assert.AreNotEqual(0, lang.Language.View.Search.Word.Length);
+            Assert.AreNotEqual(0, lang.Language.View.Settings.Connection.Length);
+            Assert.AreNotEqual(0, lang.Language.View.Settings.UI.Length);
         }
     }
 }
