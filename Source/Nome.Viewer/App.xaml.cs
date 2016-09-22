@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using Nome.Configuration;
 
 namespace Nome.Viewer
 {
@@ -13,5 +14,7 @@ namespace Nome.Viewer
     /// </summary>
     public partial class App : Application
     {
+        public Nome.Viewer.Services.ResourcesService Resources = new Nome.Viewer.Services.ResourcesService();
+        public string x = "";
     }
 }
