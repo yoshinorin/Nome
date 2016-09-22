@@ -14,9 +14,12 @@ namespace Nome.Configuration
 
         public Language Language { get; private set; }
 
-        public Manager(string input)
+        public Manager(string path = "./config/config.json")
         {
-            var confJson = JObject.Parse(input);
+            var confSr = new StreamReader(path);
+            string confJsonString = confSr.ReadToEnd();
+
+            var confJson = JObject.Parse(confJsonString);
             this.Configuration = JsonConvert.DeserializeObject<Nome.Configuration.Configuration>(confJson["configuration"].ToString());
 
             this.ReadLanguage(this.Configuration.Language);

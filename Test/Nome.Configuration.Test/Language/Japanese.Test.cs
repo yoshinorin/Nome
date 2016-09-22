@@ -6,13 +6,10 @@ namespace Nome.Configuration.Test.Language
     [TestClass]
     public class JapaneseTest
     {
-        private static StreamReader sr = new StreamReader("./config/config.json");
-        private string jsonString = sr.ReadToEnd();
-
         [TestMethod]
         public void ParamatersTest()
         {
-            var conf = new Nome.Configuration.Manager(jsonString);
+            var conf = new Nome.Configuration.Manager();
             conf.ReadLanguage("ja");
 
             Assert.AreNotEqual(0, conf.Language.View.Search.Condition.Length);
