@@ -1,8 +1,7 @@
 {
-  "configuration": 
-  {
-    "connection": 
-    {
+  "configuration": {
+    "language": "ja",
+    "connection": {
       "host": "LDAP://127.0.0.1/dc=maxcrc,dc=com",
       "user": "cn=Manager,dc=maxcrc,dc=com",
       "password": "pass"

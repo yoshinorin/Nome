@@ -1,0 +1,15 @@
+﻿{
+  "language": {
+    "view": {
+      "settings": {
+        "ui": "UI",
+        "connection": "Connection"
+      },
+      "search": {
+        "target": "Target",
+        "word": "Word",
+        "condition": "Condition"
+      }
+    }
+  }
+}

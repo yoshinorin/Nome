@@ -1,0 +1,15 @@
+﻿{
+  "language": {
+    "view": {
+      "settings": {
+        "ui": "画面",
+        "connection": "接続"
+      },
+      "search": {
+        "target": "対象",
+        "word": "単語",
+        "condition": "条件"
+      }
+    }
+  }
+}
