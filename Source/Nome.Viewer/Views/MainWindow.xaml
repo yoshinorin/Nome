@@ -8,6 +8,7 @@
         xmlns:views="clr-namespace:Nome.Viewer.Views"
         xmlns:settings="clr-namespace:Nome.Viewer.Views.Settings"
         xmlns:search="clr-namespace:Nome.Viewer.Views.Search"
+        xmlns:service="clr-namespace:Nome.Viewer.Services"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="600">
 
@@ -47,21 +48,21 @@
                     </TabControl.Resources>
                     <TabItem>
                         <TabItem.Header>
-                            <TextBlock Text="Search"
+                            <TextBlock Text="{x:Static service:LanguageService.Search}"
 									   Style="{DynamicResource TabHeaderStyleKey}" />
                         </TabItem.Header>
                         <search:SearchMainWindow />
                     </TabItem>
                     <TabItem>
                         <TabItem.Header>
-                            <TextBlock Text="Settings"
+                            <TextBlock Text="{x:Static service:LanguageService.Settings}"
 									   Style="{StaticResource TabHeaderStyleKey}" />
                         </TabItem.Header>
                         <settings:SettingsMain />
                     </TabItem>
                     <TabItem>
                         <TabItem.Header>
-                            <TextBlock Text="About"
+                            <TextBlock Text="{x:Static service:LanguageService.About}"
 									   Style="{StaticResource TabHeaderStyleKey}" />
                         </TabItem.Header>
                         <views:About />

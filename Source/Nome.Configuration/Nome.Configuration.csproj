@@ -45,10 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Settings\Configuration.cs" />
-    <Compile Include="Settings\ConfigurationManager.cs" />
-    <Compile Include="Language\Language.cs" />
-    <Compile Include="Language\LanguageManager.cs" />
+    <Compile Include="Settings\Data.cs" />
+    <Compile Include="Settings\Manager.cs" />
+    <Compile Include="Language\Data.cs" />
+    <Compile Include="Language\Manager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -68,6 +68,7 @@
     <PostBuildEvent>
     </PostBuildEvent>
   </PropertyGroup>
+  <ProjectExtensions />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

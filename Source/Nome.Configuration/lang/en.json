@@ -1,15 +1,36 @@
 ﻿{
-  "language": {
+  "data": {
     "view": {
       "settings": {
-        "ui": "UI",
-        "connection": "Connection"
+        "title": "Settings"
       },
-      "search": {
-        "target": "Target",
-        "word": "Word",
-        "condition": "Condition"
+      "language": {
+        "title": "Language",
+        "description": "Please select language"
+      },
+      "ui": {
+        "title": "UI"
+      },
+      "connection": {
+        "title": "Connection",
+        "description": "Connection for LDAP",
+        "destination": "Destination"
+      },
       }
+    },
+    "search": {
+      "title": "search",
+      "description": "Please input condition",
+      "addCondition": "▼ Add Condition",
+      "target": "Target",
+      "word": "Word",
+      "condition": "Condition"
+    },
+    "others": {
+      "title": "Others"
+    },
+    "about": {
+      "title": "About"
     }
   }
 }

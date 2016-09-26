@@ -4,11 +4,11 @@ using Newtonsoft.Json.Linq;
 
 namespace Nome.Configuration.Language
 {
-    public class LanguageManager
+    public class Manager
     {
-        public Language Language { get; private set; }
+        public Data Language { get; private set; }
 
-        public LanguageManager(string lang)
+        public Manager(string lang)
         {
             this.ReadLanguage(lang);
         }
@@ -19,7 +19,7 @@ namespace Nome.Configuration.Language
             string langJsonString = langSr.ReadToEnd();
 
             var langJson = JObject.Parse(langJsonString);
-            this.Language = JsonConvert.DeserializeObject<Nome.Configuration.Language.Language>(langJson["language"].ToString());
+            this.Language = JsonConvert.DeserializeObject<Nome.Configuration.Language.Data>(langJson["data"].ToString());
         }
     }
 }

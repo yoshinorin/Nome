@@ -14,13 +14,13 @@ namespace Nome.Viewer
     /// </summary>
     public partial class App : Application
     {
-        public Nome.Configuration.Settings.ConfigurationManager ConfigurationMng = new Nome.Configuration.Settings.ConfigurationManager();
+        public Nome.Configuration.Settings.Manager ConfigurationMng = new Nome.Configuration.Settings.Manager();
 
-        public static Nome.Configuration.Language.Language Language;
+        public static Nome.Configuration.Language.Data Language;
 
         protected override void OnStartup(StartupEventArgs e)
         {
-            var langMng = new Nome.Configuration.Language.LanguageManager(this.ConfigurationMng.Configuration.Language);
+            var langMng = new Nome.Configuration.Language.Manager(this.ConfigurationMng.Configuration.Language);
             Language = langMng.Language;
         }
     }

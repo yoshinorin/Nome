@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Nome.Viewer.Views.Search"
+             xmlns:service="clr-namespace:Nome.Viewer.Services"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Margin="10,10,10,10">
@@ -14,11 +15,10 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <TextBlock Margin="10,0,0,0" Text="Please input condition" />
+        <TextBlock Margin="10,0,0,0" Text="{x:Static service:LanguageService.SearchDescription}" />
         <local:SearchCondition Grid.Row="1"/>
         <Button Margin="10,10,10,10"
                 Grid.Row="2"
-                Content="▼ Add Condition" />
-
+                Content="{x:Static service:LanguageService.AddCondition}" />
     </Grid>
 </UserControl>

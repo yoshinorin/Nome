@@ -1,14 +1,34 @@
 ﻿{
-  "language": {
+  "data": {
     "view": {
       "settings": {
-        "ui": "画面",
-        "connection": "接続"
+        "title": "設定"
+      },
+      "language": {
+        "title": "言語",
+        "description": "言語を選択してください",
+      },
+      "ui": {
+        "title": "画面"
+      },
+      "connection": {
+        "title": "接続",
+        "description": "LDAPサーバーへの接続設定です",
+        "destination": "接続先"
       },
       "search": {
+        "title": "検索",
+        "description": "検索条件を入力してください",
+        "addCondition": "▼ 条件を追加",
         "target": "対象",
         "word": "単語",
         "condition": "条件"
+      },
+      "others": {
+        "title": "その他"
+      },
+      "about": {
+        "title": "情報"
       }
     }
   }
