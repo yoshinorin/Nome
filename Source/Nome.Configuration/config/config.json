@@ -1,5 +1,5 @@
 {
-  "configuration": {
+  "data": {
     "language": "ja",
     "connection": {
       "host": "LDAP://127.0.0.1/dc=maxcrc,dc=com",
