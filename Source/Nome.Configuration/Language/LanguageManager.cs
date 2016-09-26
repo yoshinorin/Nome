@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Nome.Configuration
+namespace Nome.Configuration.Language
 {
     public class LanguageManager
     {
@@ -19,7 +19,7 @@ namespace Nome.Configuration
             string langJsonString = langSr.ReadToEnd();
 
             var langJson = JObject.Parse(langJsonString);
-            this.Language = JsonConvert.DeserializeObject<Nome.Configuration.Language>(langJson["language"].ToString());
+            this.Language = JsonConvert.DeserializeObject<Nome.Configuration.Language.Language>(langJson["language"].ToString());
         }
     }
 }

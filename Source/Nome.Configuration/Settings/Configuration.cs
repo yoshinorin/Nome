@@ -1,9 +1,9 @@
 ﻿using Newtonsoft.Json;
 
-namespace Nome.Configuration
+namespace Nome.Configuration.Settings
 {
     [JsonObject("configuration")]
-    public class Configuration
+    public class Settings
     {
         [JsonProperty("language")]
         public string Language { get; set; }

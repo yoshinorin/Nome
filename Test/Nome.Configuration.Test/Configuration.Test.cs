@@ -10,7 +10,7 @@ namespace Nome.Configuration.Test
         [TestMethod]
         public void ConstractorTest()
         {
-            var conf = new Nome.Configuration.ConfigurationManager();
+            var conf = new Nome.Configuration.Settings.ConfigurationManager();
             Assert.AreNotEqual(0, conf.Configuration.Language.Length);
             Assert.AreNotEqual(0, conf.Configuration.Connection.Host.Length);
             Assert.AreNotEqual(0, conf.Configuration.Connection.User.Length);

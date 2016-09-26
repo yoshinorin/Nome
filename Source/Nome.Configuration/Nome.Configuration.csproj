@@ -45,10 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Configuration.cs" />
-    <Compile Include="ConfigurationManager.cs" />
-    <Compile Include="Language.cs" />
-    <Compile Include="LanguageManager.cs" />
+    <Compile Include="Settings\Configuration.cs" />
+    <Compile Include="Settings\ConfigurationManager.cs" />
+    <Compile Include="Language\Language.cs" />
+    <Compile Include="Language\LanguageManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

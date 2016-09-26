@@ -6,11 +6,11 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Nome.Configuration
+namespace Nome.Configuration.Settings
 {
     public class ConfigurationManager
     {
-        public Configuration Configuration { get; private set; }
+        public Configuration.Settings.Settings Configuration { get; private set; }
 
         public ConfigurationManager(string path = "./config/config.json")
         {
@@ -18,7 +18,7 @@ namespace Nome.Configuration
             string confJsonString = confSr.ReadToEnd();
 
             var confJson = JObject.Parse(confJsonString);
-            this.Configuration = JsonConvert.DeserializeObject<Nome.Configuration.Configuration>(confJson["configuration"].ToString());
+            this.Configuration = JsonConvert.DeserializeObject<Nome.Configuration.Settings.Settings>(confJson["configuration"].ToString());
         }
     }
 }

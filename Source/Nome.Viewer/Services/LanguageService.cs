@@ -4,9 +4,9 @@
     {
         #region "View"
 
-        public static string UI { get { return App.Language.View.Settings.UI; } }
+        public static string UI { get { return App.Language.View.Settings.Title; } }
 
-        public static string Connection { get { return App.Language.View.Settings.Connection; } }
+        public static string Connection { get { return App.Language.View.Settings.Title; } }
 
         public static string Target { get { return App.Language.View.Search.Target; } }
 
