@@ -16,21 +16,20 @@
         "description": "Connection for LDAP",
         "destination": "Destination"
       },
+      "search": {
+        "title": "search",
+        "description": "Please input condition",
+        "addCondition": "▼ Add Condition",
+        "target": "Target",
+        "word": "Word",
+        "condition": "Condition"
+      },
+      "others": {
+        "title": "Others"
+      },
+      "about": {
+        "title": "About"
       }
-    },
-    "search": {
-      "title": "search",
-      "description": "Please input condition",
-      "addCondition": "▼ Add Condition",
-      "target": "Target",
-      "word": "Word",
-      "condition": "Condition"
-    },
-    "others": {
-      "title": "Others"
-    },
-    "about": {
-      "title": "About"
     }
   }
 }
