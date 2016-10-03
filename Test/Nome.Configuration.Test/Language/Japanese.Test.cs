@@ -13,11 +13,8 @@ namespace Nome.Configuration.Test.Language
             var lang = new Nome.Configuration.Language.Manager(conf.Configuration.Language);
             lang.ReadLanguage("ja");
 
-            Assert.AreNotEqual(0, lang.Language.View.Search.Condition.Length);
-            Assert.AreNotEqual(0, lang.Language.View.Search.Target.Length);
-            Assert.AreNotEqual(0, lang.Language.View.Search.Word.Length);
-            Assert.AreNotEqual(0, lang.Language.View.Connection.Title.Length);
-            Assert.AreNotEqual(0, lang.Language.View.UI.Title.Length);
+            var common = new CommonTest();
+            Assert.AreEqual(common.ParamatersTest(lang.Language), "");
         }
     }
 }

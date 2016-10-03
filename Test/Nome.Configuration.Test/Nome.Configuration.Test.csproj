@@ -54,6 +54,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Configuration.Test.cs" />
+    <Compile Include="Language\Common.Test.cs" />
     <Compile Include="Language\English.Test.cs" />
     <Compile Include="Language\Japanese.Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
