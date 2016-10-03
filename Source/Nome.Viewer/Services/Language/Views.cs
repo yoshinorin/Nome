@@ -29,7 +29,6 @@ namespace Nome.Viewer.Services.Language.Views
         public static string Destination { get { return App.Language.View.Connection.Destination; } }
     }
 
-
     public static class Search
     {
         public static string Title { get { return App.Language.View.Search.Title; } }
