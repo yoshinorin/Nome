@@ -93,7 +93,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Services\LanguageService.cs" />
+    <Compile Include="Services\Language\Views.cs" />
     <Compile Include="Services\SearchConditionEnum.cs" />
     <Compile Include="Services\SearchConditionService.cs" />
     <Compile Include="Views\About.xaml.cs">

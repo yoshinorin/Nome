@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Nome.Viewer.Views"
-             xmlns:service="clr-namespace:Nome.Viewer.Services"
+             xmlns:lang="clr-namespace:Nome.Viewer.Services.Language.Views"
              xmlns:metro="http://schemes.grabacr.net/winfx/2014/controls"
              mc:Ignorable="d" >
     <UserControl.Resources>
@@ -27,10 +27,10 @@
 
             <TextBlock Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0"
                        HorizontalAlignment="Center"
-                       Text="{x:Static service:LanguageService.ConnectionDescription}"
+                       Text="{x:Static lang:Connection.Description}"
                        TextWrapping="NoWrap"
                        />
-            <TextBlock Grid.Column="0" Grid.Row="1" Text="{x:Static service:LanguageService.Destination}" />
+            <TextBlock Grid.Column="0" Grid.Row="1" Text="{x:Static lang:Connection.Destination}" />
             <TextBox Grid.Column="2" Grid.Row="1"
                      Text="TODO : バインディング"/>
         </Grid>
